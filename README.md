@@ -4,15 +4,15 @@
 
 ### Given: 
 
--k --- number of colors
+- k --- number of colors
 
--[p1, ..., pk] --- number of color usages
+- [p1, ..., pk] --- number of color usages
 
--m --- number of rows
+- m --- number of rows
 
--n --- number of columns
+- n --- number of columns
 
 
-##Todo:
+### Todo:
 
--Grid coloring which seems to be random
+- Grid coloring which seems to be random
