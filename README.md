@@ -2,11 +2,11 @@
 *Grid graph random coloring task*
 
 
-Given: \\
-k --- number of colors \\
-[p1, ..., pk] --- number of color usages
-m --- number of rows
-n --- number of columns
+Given: 
+-k --- number of colors
+-[p1, ..., pk] --- number of color usages
+-m --- number of rows
+-n --- number of columns
 
 
 Todo:
