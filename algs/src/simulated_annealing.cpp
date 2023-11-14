@@ -186,15 +186,25 @@ void Blanket::NewState() {
     }
     
     int& elem = color_matrix_[rand_x][rand_y];
+    bool ch = false;
     for (auto& color: *color_set) {
       if (color.num > 0) {
         if (color.id != elem) {
           int temp = elem;
           elem = color.id;
           if (CheckCorrectnessElem(rand_x, rand_y)) {
+            --color.num;
+            ch = true;
             break;
           }
           elem = temp;
+        }
+      }
+    }
+    if (ch) {
+      for (auto& color: *color_set) {
+        if (elem == color.id) {
+          ++color.num;
         }
       }
     }
@@ -211,7 +221,7 @@ void Blanket::NewState() {
   float energy_new = Energy()
 */
 
-const int num_iters = 5000;
+const int num_iters = 500;
 
 void Blanket::RandomizeColoring() {
   std::srand(std::time(nullptr));
