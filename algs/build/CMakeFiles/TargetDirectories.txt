@@ -1,0 +1,3 @@
+/mnt/d/dev/odeyalo/algs/build/CMakeFiles/Odeyalo.dir
+/mnt/d/dev/odeyalo/algs/build/CMakeFiles/edit_cache.dir
+/mnt/d/dev/odeyalo/algs/build/CMakeFiles/rebuild_cache.dir

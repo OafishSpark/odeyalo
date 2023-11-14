@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Odeyalo.dir/main.cpp.o CMakeFiles/Odeyalo.dir/src/blanket.cpp.o CMakeFiles/Odeyalo.dir/src/simulated_annealing.cpp.o -o Odeyalo 
