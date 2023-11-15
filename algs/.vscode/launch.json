@@ -9,7 +9,15 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/build/Odeyalo",
-            "args": [],
+            "args": [
+                "19",
+                "19",
+                "4",
+                "800",
+                "800",
+                "800",
+                "800"
+            ],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],

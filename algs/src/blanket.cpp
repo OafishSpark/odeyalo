@@ -4,6 +4,10 @@ Blanket::Blanket(int num_of_rows, int num_of_cols)
     : num_of_cols_(num_of_cols), num_of_rows_(num_of_rows) {
   assert(num_of_rows > 0);
   assert(num_of_cols > 0);
+  // if (num_of_cols_ < 20 || num_of_rows_ < 20) {
+  //   num_iters /= 50;
+  //   to_mask = true;
+  // }
   color_matrix_ = std::vector<std::vector<int>>(
       num_of_rows, std::vector<int>(num_of_cols, 0));
 }

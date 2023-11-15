@@ -6,9 +6,9 @@
 #include <iostream>
 #include <vector>
 
+#include <cmath>
 #include <cstdlib>
 #include <ctime>
-#include <cmath>
 
 struct Color {
   int id;  // number to identify color
@@ -20,6 +20,10 @@ bool CompareColors(Color fst, Color scnd);
 class Blanket {
   const int num_of_rows_ = 0;
   const int num_of_cols_ = 0;
+  bool to_mask = false;
+
+  int num_iters = 1000000;
+
   std::vector<std::vector<int>> color_matrix_;
 
   std::vector<int> colors_;
@@ -28,17 +32,30 @@ class Blanket {
 
   bool if_colored = false;
 
-  float Evenity(const Color&);
-  float EvenCriteria(bool mean=false);
+  float Uniformity(const Color &);
+  float UniformCriteria(bool mean = false);
 
   float SequenceCriteria();
-  
+
   // Simplified KNN on Mask
   float MasksCriteria();
 
   float Energy();
 
   bool CheckCorrectnessElem(int iv, int jv);
+  
+  bool UniformCompare(Color, Color);
+  void UniformQuickSort(std::vector<Color>&, int, int);
+  void UniformSort();
+
+  float AllColorsToUseCriteria();
+  
+  void EnterRandomElement();
+  
+  void RandomSwap();
+  
+  void RandomSquareSwap();
+  
   void NewState();
 
 public:
@@ -59,19 +76,19 @@ public:
 
 /* TODO:
     OK 1) First approximation
-    
+
     OK 2) Check correctness
-    
+
     OK 3) Random criterias
     OK 3.1) Evenity
     OK 3.2) Masks
     OK 3.3) Sequences
-    
+
     4) Simulated annealing randomizing
     4.1) Function of changing state
-    4.1.1) Random element changing (high prob)
-    4.1.2) Random even noncrossing square changing (lowest prob)
+    OK 4.1.1) Random element changing (high prob)
+    OK 4.1.2) Random even noncrossing square changing (lowest prob)
     4.1.3) Random element enter (highest prob)
-    4.2) Energy Function
-    4.3) Temperature function
+    OK 4.2) Energy Function
+    OK 4.3) Temperature function
 */
