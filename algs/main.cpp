@@ -24,9 +24,9 @@ int main(int argc, char *argv[]) {
       }
     } else {
       num_of_colors = 3;
-      colors = std::vector<int>({50, 10, 10, 10, 50});
-      num_of_rows = 10;
-      num_of_cols = 10;
+      colors = std::vector<int>({5, 5, 5, 5, 5});
+      num_of_rows = 5;
+      num_of_cols = 5;
     }
     // aproximation stage
     int sum{0};

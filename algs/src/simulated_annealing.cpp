@@ -295,10 +295,10 @@ void Blanket::RandomSquareSwap() {
   for (int iv{0}; iv < h; ++iv) {
     for (int jv{0}; jv < h; ++jv) {
       Swap(color_matrix_[x + iv][y + jv], color_matrix_[x1 + iv][y1 + jv]);
-      if (CheckCorrectnessElem(x + iv, y + jv) &&
-          CheckCorrectnessElem(x1 + iv, y1 + jv)) {
+      if (CheckCorrectnessElem(x + iv, y + jv) && CheckCorrectnessElem(x1 + iv, y1 + jv)) {
         continue;
       }
+      Swap(color_matrix_[x + iv][y + jv], color_matrix_[x1 + iv][y1 + jv]);
       return;
     }
   }
