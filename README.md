@@ -1,18 +1,21 @@
 # odeyalo
-*Grid graph random coloring task*
+*Задача о раскраске одеяла*
+
+Чтобы открылось приложение, запустите ./dist/gui
 
 
-### Given: 
+### Данны нужные для ввода: 
 
-- k --- number of colors
+- m --- высота
 
-- [p1, ..., pk] --- number of color usages
+- n --- ширина
 
-- m --- number of rows
+- k --- число цветов
 
-- n --- number of columns
+- [p1, ..., pk] --- ограниченния на числа цветов для использования
 
 
-### Todo:
 
-- Grid coloring which seems to be random
+### Ответ:
+
+- Старающееся выглядеть случайным корректно (с точки зрения раскраски графа) составленное одеяло
