@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Odeyalo::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Odeyalo-Debug-082e3a0dfc2935d76e60.json",
+					"jsonFile" : "target-Odeyalo-Debug-645753a6cd815d159c7b.json",
 					"name" : "Odeyalo",
 					"projectIndex" : 0
 				}
@@ -55,6 +55,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 5
+		"minor" : 3
 	}
 }

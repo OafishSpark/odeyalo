@@ -13,8 +13,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/d/dev/odeyalo/algs/src/simulated_annealing.cpp" "CMakeFiles/Odeyalo.dir/src/simulated_annealing.cpp.o" "gcc" "CMakeFiles/Odeyalo.dir/src/simulated_annealing.cpp.o.d"
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

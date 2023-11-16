@@ -2,19 +2,16 @@
 {
   "directory": "/mnt/d/dev/odeyalo/algs/build",
   "command": "/usr/bin/c++  -I/mnt/d/dev/odeyalo/algs/./include -g -std=gnu++17 -o CMakeFiles/Odeyalo.dir/main.cpp.o -c /mnt/d/dev/odeyalo/algs/main.cpp",
-  "file": "/mnt/d/dev/odeyalo/algs/main.cpp",
-  "output": "CMakeFiles/Odeyalo.dir/main.cpp.o"
+  "file": "/mnt/d/dev/odeyalo/algs/main.cpp"
 },
 {
   "directory": "/mnt/d/dev/odeyalo/algs/build",
   "command": "/usr/bin/c++  -I/mnt/d/dev/odeyalo/algs/./include -g -std=gnu++17 -o CMakeFiles/Odeyalo.dir/src/blanket.cpp.o -c /mnt/d/dev/odeyalo/algs/src/blanket.cpp",
-  "file": "/mnt/d/dev/odeyalo/algs/src/blanket.cpp",
-  "output": "CMakeFiles/Odeyalo.dir/src/blanket.cpp.o"
+  "file": "/mnt/d/dev/odeyalo/algs/src/blanket.cpp"
 },
 {
   "directory": "/mnt/d/dev/odeyalo/algs/build",
   "command": "/usr/bin/c++  -I/mnt/d/dev/odeyalo/algs/./include -g -std=gnu++17 -o CMakeFiles/Odeyalo.dir/src/simulated_annealing.cpp.o -c /mnt/d/dev/odeyalo/algs/src/simulated_annealing.cpp",
-  "file": "/mnt/d/dev/odeyalo/algs/src/simulated_annealing.cpp",
-  "output": "CMakeFiles/Odeyalo.dir/src/simulated_annealing.cpp.o"
+  "file": "/mnt/d/dev/odeyalo/algs/src/simulated_annealing.cpp"
 }
 ]

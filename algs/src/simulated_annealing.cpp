@@ -153,7 +153,7 @@ float Blanket::MasksCriteria() {
 
 float Blanket::Energy() {
   float answer = 0.0;
-  answer += UniformCriteria(true);
+  answer += 1000 * UniformCriteria(true);
   answer += 1000 * AllColorsToUseCriteria();
   answer += SequenceCriteria();
   if (to_mask) {
@@ -304,7 +304,6 @@ void Blanket::RandomSquareSwap() {
   }
 }
 
-const float coef_rand_elem_change = 1;
 
 void Blanket::NewState() {
   std::srand(std::time(nullptr));
@@ -332,7 +331,7 @@ void Blanket::RandomizeColoring() {
     } else {
       float energy_delta = energy_new - energy;
       float rand_val = float(rand() % 100) / 100;
-      float temperature = 0.001 * float(num_iters - iv) / num_iters;
+      float temperature = 0.01 * float(num_iters - iv) / num_iters;
       float max_prob = std::exp(-energy_delta / temperature);
       if (rand_val < max_prob) {
         energy = energy_new;

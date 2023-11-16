@@ -20,9 +20,11 @@ bool CompareColors(Color fst, Color scnd);
 class Blanket {
   const int num_of_rows_ = 0;
   const int num_of_cols_ = 0;
-  bool to_mask = false;
+  bool to_mask = true;
 
-  int num_iters = 1000000;
+  int num_iters = 10000;
+
+  float coef_rand_elem_change = 4;
 
   std::vector<std::vector<int>> color_matrix_;
 

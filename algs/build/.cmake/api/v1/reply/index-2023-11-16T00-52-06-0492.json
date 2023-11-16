@@ -8,34 +8,34 @@
 		},
 		"paths" : 
 		{
-			"cmake" : "/home/ivan/miniconda3/envs/odeyalo/bin/cmake",
-			"cpack" : "/home/ivan/miniconda3/envs/odeyalo/bin/cpack",
-			"ctest" : "/home/ivan/miniconda3/envs/odeyalo/bin/ctest",
-			"root" : "/home/ivan/miniconda3/envs/odeyalo/share/cmake-3.26"
+			"cmake" : "/usr/bin/cmake",
+			"cpack" : "/usr/bin/cpack",
+			"ctest" : "/usr/bin/ctest",
+			"root" : "/usr/share/cmake-3.22"
 		},
 		"version" : 
 		{
 			"isDirty" : false,
 			"major" : 3,
-			"minor" : 26,
-			"patch" : 4,
-			"string" : "3.26.4",
+			"minor" : 22,
+			"patch" : 1,
+			"string" : "3.22.1",
 			"suffix" : ""
 		}
 	},
 	"objects" : 
 	[
 		{
-			"jsonFile" : "codemodel-v2-f7babf9a936e0fa1dac4.json",
+			"jsonFile" : "codemodel-v2-e2fd0bec0c70c840f55a.json",
 			"kind" : "codemodel",
 			"version" : 
 			{
 				"major" : 2,
-				"minor" : 5
+				"minor" : 3
 			}
 		},
 		{
-			"jsonFile" : "cache-v2-87d5f82cee184773b64e.json",
+			"jsonFile" : "cache-v2-ddcc65c1b4d80c160899.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -44,7 +44,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cmakeFiles-v1-b5c305355dea7c29a061.json",
+			"jsonFile" : "cmakeFiles-v1-3f466c8fbd6c018f9a86.json",
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
@@ -90,7 +90,7 @@
 				"responses" : 
 				[
 					{
-						"jsonFile" : "cache-v2-87d5f82cee184773b64e.json",
+						"jsonFile" : "cache-v2-ddcc65c1b4d80c160899.json",
 						"kind" : "cache",
 						"version" : 
 						{
@@ -99,12 +99,12 @@
 						}
 					},
 					{
-						"jsonFile" : "codemodel-v2-f7babf9a936e0fa1dac4.json",
+						"jsonFile" : "codemodel-v2-e2fd0bec0c70c840f55a.json",
 						"kind" : "codemodel",
 						"version" : 
 						{
 							"major" : 2,
-							"minor" : 5
+							"minor" : 3
 						}
 					},
 					{
@@ -117,7 +117,7 @@
 						}
 					},
 					{
-						"jsonFile" : "cmakeFiles-v1-b5c305355dea7c29a061.json",
+						"jsonFile" : "cmakeFiles-v1-3f466c8fbd6c018f9a86.json",
 						"kind" : "cmakeFiles",
 						"version" : 
 						{

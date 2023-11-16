@@ -20,13 +20,13 @@ int main(int argc, char *argv[]) {
       colors.resize(num_of_colors);
       assert(argc == 4 + num_of_colors);
       for (int iv{0}; iv < num_of_colors; ++iv) {
-        colors[iv] = std::stoi(argv[3 + iv]);
+        colors[iv] = std::stoi(argv[4 + iv]);
       }
     } else {
-      num_of_colors = 1;
-      colors = std::vector<int>(1, 1);
-      num_of_rows = 1;
-      num_of_cols = 1;
+      num_of_colors = 3;
+      colors = std::vector<int>({50, 10, 10, 10, 50});
+      num_of_rows = 10;
+      num_of_cols = 10;
     }
     // aproximation stage
     int sum{0};
